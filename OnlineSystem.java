@@ -14,7 +14,7 @@ public class OnlineSystem {
         admin.addUser("Bob");
 
         admin.viewProducts();
-        admin.viewUsers();
+        admin.viewUsers();   
 
         User alice = admin.getUsers().get(1);
         User bob = admin.getUsers().get(2);
