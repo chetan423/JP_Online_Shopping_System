@@ -59,11 +59,9 @@ public class Administrator {
     }
 
     public void processOrders() {
-        // Simulate order processing (in a real application, this would involve more steps)
         System.out.println("Processing orders...");
         for (User user : users.values()) {
             user.placeOrder(products);
-            // Save order history for user (in a real application, this would involve database storage)
             user.getOrderHistory().add(user.getUserID()); // Simulated order history storage
         }
     }
