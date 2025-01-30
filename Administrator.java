@@ -65,4 +65,4 @@ public class Administrator {
             user.getOrderHistory().add(user.getUserID()); // Simulated order history storage
         }
     }
-}
+}          
